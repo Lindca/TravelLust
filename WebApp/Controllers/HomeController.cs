@@ -32,5 +32,11 @@ namespace WebApp.Controllers
 
             return View();
         }
+        public ActionResult Event()
+        {
+            ViewBag.Message = "Your Events.";
+
+            return View();
+        }
     }
 }
