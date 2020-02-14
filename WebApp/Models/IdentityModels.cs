@@ -29,5 +29,9 @@ namespace WebApp.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<WebApp.Models.TripModel> TripModels { get; set; }
+
+        public System.Data.Entity.DbSet<WebApp.Models.EventModel> EventModels { get; set; }
     }
 }

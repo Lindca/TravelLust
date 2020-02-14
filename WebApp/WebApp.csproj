@@ -239,6 +239,14 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\Trip.cshtml" />
     <Content Include="Views\Home\Event.cshtml" />
+    <Content Include="Views\Trip\EditTrip.cshtml" />
+    <Content Include="Views\Trip\DeleteTrip.cshtml" />
+    <Content Include="Views\Trip\NewTrip.cshtml" />
+    <Content Include="Views\Trip\ViewTrip.cshtml" />
+    <Content Include="Views\Event\DeleteEvent.cshtml" />
+    <Content Include="Views\Event\EditEvent.cshtml" />
+    <Content Include="Views\Event\NewEvent.cshtml" />
+    <Content Include="Views\Event\ViewEvent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
