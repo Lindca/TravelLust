@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Trip";
+}
+
+
+    <div class="jumbotron">
+        <h2>My Trips</h2>
+        <p class="lead">Your Existing Trips!</p>
+        <p></p>
+
+
+    </div>
+    <div class="jumbotron">
+        <h2>New Trip</h2>
+        <p class="lead">Creating Your New Trip!</p>
+        <p></p>
+
+        <div>
+            <label>Name</label>
+            <asp:TextBox ID="name" runat="server" />
+        </div>
+        <div>
+            <label>Destination</label>
+            <asp:TextBox ID="destination" runat="server" />
+        </div>
+        <div>
+            <label>Date Range</label>
+            <asp:TextBox ID="startDate" runat="server" />
+        </div>
+        <div>
+            <label>Date Range</label>
+            <asp:TextBox ID="endDate" runat="server" />
+        </div>
+    </div>

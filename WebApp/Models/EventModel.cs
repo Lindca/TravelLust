@@ -7,8 +7,8 @@ namespace WebApp.Models
 {   
     public partial class EventModel
     {
-        public int ID { get; set; }
-        public int TripID { get; set; }
+        public int Id { get; set; }
+        public int TripId { get; set; }
         public string StreetAddress { get; set; }
         public string StateOrRegion { get; set; }
         public string Country { get; set; }

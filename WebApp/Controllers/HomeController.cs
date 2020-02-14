@@ -26,5 +26,11 @@ namespace WebApp.Controllers
 
             return View();
         }
+        public ActionResult Trip()
+        {
+            ViewBag.Message = "Your Trips.";
+
+            return View();
+        }
     }
 }

@@ -7,8 +7,8 @@ namespace WebApp.Models
 {   
     public partial class TripModel
     {
-        public int TripID { get; set; }
-        public int UserID { get; set; }
+        public int Id { get; set; }
+        public int UserId { get; set; }
         public DateTimeOffset DateTimeStart { get; set; }
         public DateTimeOffset DateTimeEnd { get; set; }
         public string Destination { get; set; }
