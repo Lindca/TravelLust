@@ -16,20 +16,24 @@
         <p class="lead">Creating Your New Trip!</p>
         <p></p>
 
-        <div>
-            <label>Name</label>
-            <asp:TextBox ID="name" runat="server" />
-        </div>
-        <div>
-            <label>Destination</label>
-            <asp:TextBox ID="destination" runat="server" />
-        </div>
-        <div>
-            <label>Date Range</label>
-            <asp:TextBox ID="startDate" runat="server" />
-        </div>
-        <div>
-            <label>Date Range</label>
-            <asp:TextBox ID="endDate" runat="server" />
-        </div>
+        <form>
+            <div class="row">
+                <div class="col-md-3">
+                    <label>Name</label>
+                    <input type="text" class="form-control" id="" placeholder="South American Dream Trip">
+                </div>
+                <div class="col-md-3">
+                    <label>Destination</label>
+                    <input type="text" class="form-control" id="" placeholder="Colombia, Costa Rica, Peru">
+                </div>
+                <div class="col-md-3">
+                    <label>Start Date and Time</label>
+                    <input type="text" class="form-control" id="" placeholder="01/01/2001 8:15PM">
+                </div>
+                <div class="col-md-3">
+                    <label>End Date and Time</label>
+                    <input type="text" class="form-control" id="" placeholder="01/01/2001 8:15PM">
+                </div>
+            </div>
+        </form>
     </div>
