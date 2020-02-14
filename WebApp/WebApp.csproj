@@ -169,8 +169,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\EventModelController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\TripModelController.cs" />
     <Compile Include="DAL\TripContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -241,17 +243,20 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\Trip.cshtml" />
     <Content Include="Views\Home\Event.cshtml" />
-    <Content Include="Views\Trip\EditTrip.cshtml" />
-    <Content Include="Views\Trip\DeleteTrip.cshtml" />
-    <Content Include="Views\Trip\NewTrip.cshtml" />
-    <Content Include="Views\Trip\ViewTrip.cshtml" />
-    <Content Include="Views\Event\DeleteEvent.cshtml" />
-    <Content Include="Views\Event\EditEvent.cshtml" />
-    <Content Include="Views\Event\NewEvent.cshtml" />
-    <Content Include="Views\Event\ViewEvent.cshtml" />
+    <Content Include="Views\EventModel\Create.cshtml" />
+    <Content Include="Views\EventModel\Delete.cshtml" />
+    <Content Include="Views\EventModel\Details.cshtml" />
+    <Content Include="Views\EventModel\Edit.cshtml" />
+    <Content Include="Views\EventModel\Index.cshtml" />
+    <Content Include="Views\TripModel\Create.cshtml" />
+    <Content Include="Views\TripModel\Delete.cshtml" />
+    <Content Include="Views\TripModel\Details.cshtml" />
+    <Content Include="Views\TripModel\Edit.cshtml" />
+    <Content Include="Views\TripModel\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Trip\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
